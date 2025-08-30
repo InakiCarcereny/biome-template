@@ -35,18 +35,56 @@
       "recommended": true,
       "nursery": {
         "useExplicitType": "warn",
-        "useSortedClasses": "warn"
+        "useSortedClasses": "warn",
+        "noNextAsyncClientComponent": "error",
+        "useMaxParams": "warn"
       },
       "correctness": {
         "noUnusedImports": "warn",
         "noUnusedVariables": "warn",
         "useHookAtTopLevel": "warn",
         "noConstAssign": "error",
-        "noEmptyPattern": "error"
+        "noEmptyPattern": "error",
+        "noInvalidUseBeforeDeclaration": "error",
+        "noUnusedFunctionParameters": "warn"
       },
       "suspicious": {
         "noUnknownAtRules": "off",
-        "noEmptyInterface": "warn"
+        "noEmptyInterface": "warn",
+        "noDoubleEquals": "error",
+        "noDuplicateElseIf": "error",
+        "noDuplicateJsxProps": "error",
+        "noDuplicateParameters": "error",
+        "noImplicitAnyLet": "error",
+        "noIrregularWhitespace": "warn",
+        "noSelfCompare": "error",
+        "noSuspiciousSemicolonInJsx": "warn",
+        "useIsArray": "warn",
+        "useIterableCallbackReturn": "error",
+        "noDuplicateObjectKeys": "error",
+        "noEmptyBlockStatements": "error"
+      },
+      "a11y": {
+        "noRedundantAlt": "warn"
+      },
+      "complexity": {
+        "noEmptyTypeParameters": "error",
+        "noExtraBooleanCast": "info",
+        "noUselessCatch": "info",
+        "noUselessTernary": "info",
+        "noUselessTypeConstraint": "info",
+        "noUselessUndefinedInitialization": "info"
+      },
+      "security": {
+        "noBlankTarget": "error",
+        "noDangerouslySetInnerHtml": "error"
+      },
+      "style": {
+        "useTemplate": "info",
+        "useCollapsedElseIf": "info",
+        "useCollapsedIf": "info",
+        "useDefaultParameterLast": "warn",
+        "noCommonJs": "warn"
       }
     },
     "domains": {
