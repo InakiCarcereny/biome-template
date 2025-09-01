@@ -46,7 +46,8 @@
         "noConstAssign": "error",
         "noEmptyPattern": "error",
         "noInvalidUseBeforeDeclaration": "error",
-        "noUnusedFunctionParameters": "warn"
+        "noUnusedFunctionParameters": "warn",
+        "useJsxKeyInIterable": "error"
       },
       "suspicious": {
         "noUnknownAtRules": "off",
@@ -62,7 +63,10 @@
         "useIsArray": "warn",
         "useIterableCallbackReturn": "error",
         "noDuplicateObjectKeys": "error",
-        "noEmptyBlockStatements": "error"
+        "noEmptyBlockStatements": "error",
+        "noArrayIndexKey": "error",
+        "noCommentText": "error",
+        "noTsIgnore": "warn"
       },
       "a11y": {
         "noRedundantAlt": "warn"
@@ -73,7 +77,8 @@
         "noUselessCatch": "info",
         "noUselessTernary": "info",
         "noUselessTypeConstraint": "info",
-        "noUselessUndefinedInitialization": "info"
+        "noUselessUndefinedInitialization": "info",
+        "noUselessFragments": "info"
       },
       "security": {
         "noBlankTarget": "error",
@@ -84,7 +89,9 @@
         "useCollapsedElseIf": "info",
         "useCollapsedIf": "info",
         "useDefaultParameterLast": "warn",
-        "noCommonJs": "warn"
+        "noCommonJs": "warn",
+        "useSelfClosingElements": "error",
+        "useConsistentArrayType": "info"
       }
     },
     "domains": {
